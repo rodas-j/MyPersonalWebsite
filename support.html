@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
 </head>
 <body>
     <table align="center" cellspacing="15px" align="center" cellspacing="50px">
@@ -23,11 +23,32 @@
         <td colspan="11"><hr></td>
         
     </table>
-    <table>
+    <table width='50%' align="center">
+        <tr>
+            <td><h1 >Contact Me</h1>
+                </td>
+        </tr>
+        <tr>
+            <td>
+            Thank you very much for visiting my website! I'm glad you want to get in touch with me.
+<p>
+    Please use the Business Inquiry subject to send a message related to business.
+</p> 
+    Got a quetion about anything else? Use the General Inquiry subject to ask.
+  <p>
+    If you just want to say hi, hit me up on my twitter or telegram account.
+</p>  
+</td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+    <table  align="center">
         <tr>
 
         <td>
-            <table>
+            <table cellpadding="19px" bgcolor="#ebe9e5">
             <tr>
                 <td><label for="fName">First Name:</label><br></td>
                 <td><input pattern="[a-zA-Z]{4, 10}" name="fName" type="name" id="fName"></td>
@@ -41,47 +62,22 @@
                 <td><input pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" name="email" type="email" name="" id="email" required></td>
             </tr>
             <tr>
-                <td>Where are you from?</td>
+                <td>Subject</td>
                 <td>
                     <select name="continent" id="">
-                        <option value="Africa">Africa</option>
-                        <option>Asia</option>
-                        <option value="">America</option>
-                        <option value="">Australia</option>
-                        <option value="">Europe</option>
-                        <option value="">Antarctica</option>
-                        <option value="">South America</option>
+                    
+                        <option value="">Speaking Inquiry</option>
+                        <option value="">General Inquiry</option>
+                        <option value="">Business Inquiry</option>
                     </select>
                 </td>
-            </tr>
-            <tr>
-                <td>Phone number</td>
-            <td><input type="tel" id="tel" name="tel"></td>
-            </tr>
-
-            <tr>
-                <td><label for="">Password</label></td>
-                <td><input type="password" name="" id="" pattern="^[a-zA-Z]\w{3,14}$" required  ></td>
             </tr>
             <tr>
                 <td><label for="">What do you want to say?</label></td>
                 <td><textarea name="textArea" id="" cols="30" rows="10"></textarea></td>
             </tr>
-
             <tr>
                 <td><button type="submit">Submit</button></td>
-            </tr>
-            <tr>
-                
-            </tr>
-            <tr>
-                <td>
-                <label for="price">Satisfaction: </label>
-            </td>
-            <td>
-            <input type="range" name="price" id="price" min="50000" max="500000" step="100" value="250000">
-            <output class="price-output" for="price"></output>
-        </td>
             </tr>
         </table>
             </td>
